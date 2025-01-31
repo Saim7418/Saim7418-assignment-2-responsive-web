@@ -354,6 +354,86 @@
 
 }
 
+/* fotter releted style */
+
+.edu-description{
+    width: 500px;
+    height: 100%;
+    margin-top: 38px;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    margin-left: 135px;
+    margin-bottom: 180px;
+
+}
+
+.fotter-container{
+    height: 519px;
+    background-color: #01ACFD;
+}
+
+.fotter-flex{
+    height: 222px;
+    margin-top: 98px;
+    margin-left: 122;
+
+}
+
+.fotter-h{
+    font-weight: 700;
+    font-size: 2.6rem;
+    color: #ffffff;
+    margin-top: 95px;
+}
+
+.fotter-logo{
+    margin-left: 125px;
+    margin-top: 90px;
+    height: 100px;
+    width: 85px;
+
+}
+
+.fotter-about{
+    margin-top: 65px;
+    margin-left: 100px;
+}
+
+.fotter-li{
+    list-style: none;
+    margin-top: 32px;
+    margin-left: -35px;
+    color: white;
+}
+
+.fotter-a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.fotter-h3{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.fotter-h3-2{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 143px;
+    margin-top:  85px;
+
+}
+
+.footer-img{
+    margin-top: 15px;
+    margin-left: 135px;
+}
+
 @media screen and (max-width: 576px) {
     .first-title,
     .nav-link-1,
@@ -366,6 +446,10 @@
         .navbar-first-logo{
             margin-left: -107px;
             margin-top: -2px;
+        }
+        
+        .keep{
+            display: none;
         }
         .three-dot{
             width: 40px;
@@ -502,6 +586,33 @@
         .our-container{
             margin-bottom: -100px;
         }
+
+        .fotter-logo{
+            margin-left: 16px;
+            margin-top: 25px;
+            height: 68px;
+            width: 68px;
+        
+        }
+
+        .fotter-h{
+            font-weight: 700;
+            font-size: 2.6rem;
+            color: #ffffff;
+            margin-top: 25px;
+        }
+
+
+        .edu-description{
+            width: 357px;
+            height: 100%;
+            margin-top: 22px;
+            font-weight: 500;
+            font-size: 1rem;
+            color: #FFFFFF;
+            margin-left: 20px;
+            margin-bottom:px;
+
 
         }
 
