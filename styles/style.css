@@ -9,7 +9,6 @@
     font-style: normal;
   }
 
-
 /* shared styles */
 .display-flex{
     display: flex;
@@ -18,7 +17,7 @@
 /* header styles */
 
 .container{
-    width: 1158px;
+    max-width: 1158px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -36,8 +35,7 @@
 }
 
 .hero-kid{
-    width: 468px;
-    margin-right: -1000px;
+    width: 468px; 
     margin-top: 20px;
 
 }
@@ -136,7 +134,7 @@
 /* standard related style */
 
 .standard-section{
-    width: 1440px;
+    max-width: 1440px;
     height: 879px; 
 }
 
@@ -242,6 +240,7 @@
 }
 
 .main{
+    max-width: 1440px;
     background: radial-gradient(circle at bottom, #FFF4DC, #ffffff);
 }
 .our-container{
@@ -369,6 +368,7 @@
 }
 
 .fotter-container{
+    max-width: 1440px;
     height: 519px;
     background-color: #01ACFD;
 }
@@ -457,14 +457,13 @@
         }
 
         .container{
-            /* grid-template-columns: repeat(1, 1fr); */
-            flex-direction: column-reverse;
+            grid-template-columns: repeat(1, 1fr);
+            
         }
 
         .hero-kid{
-            margin-top: 60px;
-            width: 30%;
-            margin-left: 17px;
+            margin-left: 24px;
+            width:42% 
         }
 
         .container-title{
@@ -475,10 +474,11 @@
         }
 
         .container-description{
+            width: 357px;
+            font-weight: 500;
             text-align: center;
-            width: 50%;
-            font-size: 100%;
-            margin-left: -120px;
+            font-size: 0.8rem;
+            margin-left: -130px;
             margin-top: 1px;
         }
 
@@ -488,11 +488,13 @@
         }
 
         .standard-title-first{
+            width: 300px;
+            font-weight: 700px;
             text-align: center;
-            font-size: 190%;
-            margin-left: -1060px;
-            margin-bottom: -60px;
+            font-size: 1.8rem;
+            margin-bottom: -52px;
             margin-top: 80px;
+            margin-left: 30px;
         }
 
         .standard-container {
@@ -500,8 +502,7 @@
         }
 
         .standard-div{
-            width: 24%;
-            margin-left: 17px;
+            margin-left: 7px;
         }
 
         .arrow{
@@ -574,15 +575,6 @@
         .sostho, .cothurtho, .ditiyo {
             margin-left: -1px;
         }
-
-        .our-title{
-            /* margin-left: -25px; */
-        }
-
-        body{
-            background-size: 200%;
-        }
-
         .our-container{
             margin-bottom: -100px;
         }
